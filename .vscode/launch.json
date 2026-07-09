@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug with Env Vars",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            
+            // Method 2: Load variables from an external file (Optional)
+            "envFile": "${workspaceFolder}/env"
+        }
+    ]
+}
